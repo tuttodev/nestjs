@@ -1,0 +1,10 @@
+POST localhost:3000/resources
+content-type: application/json
+
+{
+  "name": "Giphy",
+  "documentationUrl": "https://developers.giphy.com/"
+}
+
+###
+GET localhost:3000/resources
